@@ -7,7 +7,8 @@ defmodule Flightex.Bookings.BookingTest do
     test "when all params are valid, returns a booking" do
       {:ok, response} =
         Booking.build(
-          ~N[2001-05-07 01:46:20],
+          # ~N[2001-05-07 01:46:20],
+          "07/05/2001 01:46:20",
           "Brasilia",
           "ilha das bananas",
           "12345678900"

@@ -12,10 +12,11 @@ defmodule Flightex.Bookings.CreateOrUpdateTest do
 
     test "when all params are valid, returns a valid tuple" do
       params = %{
-        complete_date: ~N[2001-05-07 03:05:00],
+        # complete_date: ~N[2001-05-07 03:05:00],
+        complete_date: "07/05/2001 03:05:00",
         local_origin: "Brasilia",
         local_destination: "Bananeiras",
-        user_id: "e9f7d281-b9f2-467f-9b34-1b284ed58f9e",
+        user_id: "e9f7d281-b9f2-467f-9b34-1b284ed58f9e"
       }
 
       {:ok, uuid} = CreateOrUpdate.call(params)
