@@ -20,23 +20,16 @@
     {
       "describe": "build/4",
       "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/bookings/booking_test.exs",
+      "line": 28,
+      "module": "Elixir.Flightex.Bookings.BookingTest",
+      "test": "test build/4 when date param is invalid, returns an error"
+    },
+    {
+      "describe": "build/4",
+      "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/bookings/booking_test.exs",
       "line": 7,
       "module": "Elixir.Flightex.Bookings.BookingTest",
       "test": "test build/4 when all params are valid, returns a booking"
-    },
-    {
-      "describe": "call/1",
-      "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/bookings/create_or_update_test.exs",
-      "line": 13,
-      "module": "Elixir.Flightex.Bookings.CreateOrUpdateTest",
-      "test": "test call/1 when all params are valid, returns a valid tuple"
-    },
-    {
-      "describe": "get/1",
-      "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/users/user_agent_test.exs",
-      "line": 56,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is't founded, returns an error"
     },
     {
       "describe": "save/1",
@@ -48,16 +41,30 @@
     {
       "describe": "get/1",
       "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/users/user_agent_test.exs",
+      "line": 56,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is't founded, returns an error"
+    },
+    {
+      "describe": "get/1",
+      "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/users/user_agent_test.exs",
       "line": 43,
       "module": "Elixir.Flightex.Users.AgentTest",
       "test": "test get/1 when the user is found, returns the user"
     },
     {
-      "describe": "get/1",
-      "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/bookings/booking_agent_test.exs",
-      "line": 53,
-      "module": "Elixir.Flightex.Bookings.AgentTest",
-      "test": "test get/1 when the user wasn't found, returns an error"
+      "describe": "call/1",
+      "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/bookings/create_or_update_test.exs",
+      "line": 37,
+      "module": "Elixir.Flightex.Bookings.CreateOrUpdateTest",
+      "test": "test call/1 when there are params invalid, returns an error"
+    },
+    {
+      "describe": "call/1",
+      "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/bookings/create_or_update_test.exs",
+      "line": 13,
+      "module": "Elixir.Flightex.Bookings.CreateOrUpdateTest",
+      "test": "test call/1 when all params are valid, returns a valid tuple"
     },
     {
       "describe": "save/1",
@@ -69,16 +76,16 @@
     {
       "describe": "get/1",
       "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/bookings/booking_agent_test.exs",
+      "line": 53,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test get/1 when the user wasn't found, returns an error"
+    },
+    {
+      "describe": "get/1",
+      "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/bookings/booking_agent_test.exs",
       "line": 34,
       "module": "Elixir.Flightex.Bookings.AgentTest",
       "test": "test get/1 when the user is found, return a booking"
-    },
-    {
-      "describe": "generate/3",
-      "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/bookings/report_test.exs",
-      "line": 60,
-      "module": "Elixir.Flightex.Bookings.ReportTest",
-      "test": "test generate/3 when called in offset, return the full content"
     },
     {
       "describe": "generate/1",
@@ -86,6 +93,13 @@
       "line": 13,
       "module": "Elixir.Flightex.Bookings.ReportTest",
       "test": "test generate/1 when called, return the content"
+    },
+    {
+      "describe": "generate/3",
+      "file": "/home/randon-paulo/Documentos/elixir/flight_booking/test/bookings/report_test.exs",
+      "line": 60,
+      "module": "Elixir.Flightex.Bookings.ReportTest",
+      "test": "test generate/3 when called in offset, return the full content"
     },
     {
       "describe": "generate/3",

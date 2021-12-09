@@ -24,5 +24,19 @@ defmodule Flightex.Bookings.BookingTest do
 
       assert response == expected_response
     end
+
+    test "when date param is invalid, returns an error" do
+      response =
+        Booking.build(
+          "07/05/200101:46:20",
+          "Brasilia",
+          "ilha das bananas",
+          "12345678900"
+        )
+
+      expected_response = {:error, "Invalid date format"}
+
+      assert response == expected_response
+    end
   end
 end
