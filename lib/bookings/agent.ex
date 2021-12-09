@@ -15,6 +15,7 @@ defmodule Flightex.Bookings.Agent do
   end
 
   def get(id), do: Agent.get(__MODULE__, &get_booking(&1, id))
+  def list_all, do: Agent.get(__MODULE__, & &1)
 
   defp update_state(state, %Booking{id: id} = booking), do: Map.put(state, id, booking)
 
